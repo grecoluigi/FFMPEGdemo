@@ -15,7 +15,7 @@ Some of the code based on [this article by Jung Donghyun](https://crowjdh.blogsp
 )  
 
 Build instructions:
-- Dowload the latest ffmpeg binary for Mac at [this address](https://evermeet.cx/ffmpeg/) and place it the root directory of the project. Your directory should look like this
+- Dowload the latest ffmpeg binary for Mac at [this address](https://evermeet.cx/ffmpeg/) and place it in the root directory of the project. Then drag it into Xcode and add it to your project, selecting your target so it's bundled during compilation. Your directory should look like this
 _____
  |_ffmpeg  
  |_FFMPEGdemo (folder)  
